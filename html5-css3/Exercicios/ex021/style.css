@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body {
+    background-color: gray;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px ;
+}
+nav{
+   background-color: rgb(92, 91, 91);
+   padding: 2px;
+   padding-left: 6px;
+   box-shadow: 1px 1px 1px black;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding-right: 30px
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 10px;
+
+}
+main > section#noticia{
+    background-color: lightgray;
+    padding-left: 6px;
+    text-align: justify;
+    padding-right: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+aside#escritor{
+    background-color: gray;
+    text-align: center;
+    border-radius:7px;
+}
+
+div#bola{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+}
+div#bola-menor{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 25px;
+}
+div#bola-menor-ainda{
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: auto 
+}
